@@ -1,0 +1,14 @@
+header  {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+header a {
+  color: #fafafa;
+}
+
+.nav-link a {
+  text-decoration: none;
+}
