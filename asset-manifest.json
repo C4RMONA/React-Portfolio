@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.4c089e52.css",
+    "main.js": "/React-Portfolio/static/js/main.084f6598.js",
+    "static/js/787.a2cb61a6.chunk.js": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/Run-Buddy.gif": "/React-Portfolio/static/media/Run-Buddy.c1d315df1ff40b6bf06a.gif",
+    "static/media/Pet-Portal.gif": "/React-Portfolio/static/media/Pet-Portal.12165231d1952c8bbcbf.gif",
+    "static/media/Pokemon-Questionaire.gif": "/React-Portfolio/static/media/Pokemon-Questionaire.08fb2607acf80e126d58.gif",
+    "static/media/Just-Tech.gif": "/React-Portfolio/static/media/Just-Tech.620ba1468895d4d28b4c.gif",
+    "static/media/christian-carmona-potrait.jpg": "/React-Portfolio/static/media/christian-carmona-potrait.32da35001b0facd2ace8.jpg",
+    "static/media/Schedule.gif": "/React-Portfolio/static/media/Schedule.22cbf5537756acac543c.gif",
+    "static/media/bootstrap-icons.woff?": "/React-Portfolio/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
+    "static/media/bootstrap-icons.woff2?": "/React-Portfolio/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
+    "static/media/Pokémon-Questionaire.png": "/React-Portfolio/static/media/Pokémon-Questionaire.1c8e79486787b8b68145.png",
+    "static/media/Schedule.png": "/React-Portfolio/static/media/Schedule.01dba05829886b520bc3.png",
+    "static/media/Pet-Portal.png": "/React-Portfolio/static/media/Pet-Portal.a7a4fb5c0aa823cd7e4b.png",
+    "static/media/Run-Buddy.png": "/React-Portfolio/static/media/Run-Buddy.ebe97054bafd05bb01d3.png",
+    "static/media/Just-Tech.png": "/React-Portfolio/static/media/Just-Tech.a6b04b0195c550deea5a.png",
+    "index.html": "/React-Portfolio/index.html",
+    "main.4c089e52.css.map": "/React-Portfolio/static/css/main.4c089e52.css.map",
+    "main.084f6598.js.map": "/React-Portfolio/static/js/main.084f6598.js.map",
+    "787.a2cb61a6.chunk.js.map": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c089e52.css",
+    "static/js/main.084f6598.js"
+  ]
+}
