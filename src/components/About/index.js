@@ -1,11 +1,9 @@
 import React from 'react';
-import potraitImage from '../../assets/images/christian-carmona-potrait.jpg';
 import "./index.css"
 
 function About() {
     return (
         <section className="">
-            <img src={potraitImage} className='' style={{width: "20%"}} alt="Portrait of Christian Carmona"></img>
             <h2>About Me</h2>
             <p>I am a full stack web developer with skills in Front-end development such as HTML, JavaScript, and CSS. I also
                 have Back-end experience with Node.js, Express, and MySQL.

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import './index.css'
 import Modal from "../Modal"
 
@@ -45,7 +45,7 @@ function Portfolio() {
   ];
 
   const [isOpen, setIsOpen] = useState(false);
-  const [modalState, setModalState] = useState('false');
+  // const [modalState, setModalState] = useState('false');
   const [modalCategory, setModalCategory] = useState(
     {
       name: '',

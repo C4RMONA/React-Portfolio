@@ -1,14 +1,28 @@
 header  {
   display: flex;
   justify-content: space-between;
-  margin: 0;
+  margin: 30px;
   padding: 0;
 }
 
-header a {
-  color: #fafafa;
+.dark header a {
+  color: var(--light);
+}
+
+.light header a {
+  color: var(--dark);
 }
 
 .nav-link a {
   text-decoration: none;
+}
+
+button {
+  background: none;
+  border: none;
+  width: 0 !important;
+}
+
+.dark button {
+  color: var(--light);
 }
