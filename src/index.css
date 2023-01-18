@@ -70,46 +70,6 @@ footer i {
   margin: 5%;
 }
 
-.modalBackdrop {
-	background: rgba(0, 0, 0, .65);
-  align-self: auto;
-  width: 50%;
-  margin: auto;
-  padding: auto;
-  position: absolute;
-	z-index: 3;
-  border: 5px solid var(--primary-color)
-}
-
-.modalContainer {
-	background: var(--darker);
-	border-radius: 5px;
-	max-width: 100%;
-	margin: 50px auto;
-	padding: 15px;
-	width: 960px;
-}
-
-.modalTitle {
-	font-size: 18px;
-	font-weight: 600;
-	margin-bottom: 25px;
-}
-
-.port {
-  text-align: center;
-}
-
-.modal-box {
-  text-align: center;
-  background-color: black;
-}
-
-.projects {
-  text-align: center;
-  align-items: center;
-}
-
 .contact {
   border: 2px solid var(--primary-color);
   width: 40%;
@@ -148,7 +108,7 @@ footer i {
   color: var(--dark);
 }
 
-img {
+.self-img {
   border-radius: 50%;
   height: 400px;
   width: 300px;

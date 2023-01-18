@@ -8,7 +8,7 @@ function Modal({ onClose, currentGif }) {
         <h1>{currentGif.name}</h1>
         <h5>hello{currentGif.description}</h5>
         <p>Built With: {currentGif.built}</p>
-        <img src={require(`../../assets/gifs/${currentGif.category}/${currentGif.category}.gif`)} />
+        <img className="gif-img" src={require(`../../assets/gifs/${currentGif.category}/${currentGif.category}.gif`)} />
         <p></p>
         <button className="modal-btn" onClick={onClose} type="button">
           Close this modal

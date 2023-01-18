@@ -17,12 +17,12 @@ header  {
   text-decoration: none;
 }
 
-button {
+.mode-btn {
   background: none;
   border: none;
   width: 0 !important;
 }
 
-.dark button {
+.dark .mode-btn {
   color: var(--light);
 }

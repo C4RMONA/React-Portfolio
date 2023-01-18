@@ -10,7 +10,7 @@ const Resume = () => {
       <div className="resume-div">
         <section>
           <h5>
-            Download my <a className="resume" href="https://docs.google.com/document/d/1IH4iFgHU8bvN_gBRxFoV1YPAyjd0syvqy99iBYFWhiE/edit?usp=sharing" target={"_blank"}>Resume </a>
+            Download my <a className="resume" rel="noreferrer" href="https://docs.google.com/document/d/1IH4iFgHU8bvN_gBRxFoV1YPAyjd0syvqy99iBYFWhiE/edit?usp=sharing" target={"_blank"}>Resume </a>
           </h5>
         </section>
         <section>

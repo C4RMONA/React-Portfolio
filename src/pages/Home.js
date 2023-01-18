@@ -20,7 +20,7 @@ const Home = () => {
         <Col>
           <img
             src={potraitImage}
-            className=""
+            className="self-img"
             style={{}}
             alt="Portrait of Christian Carmona"
           ></img>

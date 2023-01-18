@@ -4,7 +4,7 @@ import "./index.css";
 import ThemeContext from "../../context/ThemeContext";
 
 function Header() {
-  const { theme, toggleTheme } = useContext(ThemeContext);
+  const { toggleTheme } = useContext(ThemeContext);
 
   return (
     <header className="nav-head container align-items-center pt-2">
@@ -25,7 +25,7 @@ function Header() {
           <Link className="col-3" to="/resume">
             Resume
           </Link>
-          <button class="bi bi-lightbulb" onClick={toggleTheme}>
+          <button class="bi bi-lightbulb mode-btn" onClick={toggleTheme}>
           </button>
         </ul>
       </nav>
