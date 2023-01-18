@@ -8,7 +8,7 @@ function Header() {
 
   return (
     <header className="nav-head container align-items-center pt-2">
-      <Link to="/">
+      <Link to="/React-Portfolio">
         <h1 className="col-12">Christian Carmona</h1>
       </Link>
       <nav>
