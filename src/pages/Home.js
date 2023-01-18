@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import potraitImage from "../assets/images/christian-carmona-potrait.jpg";
 import { Container, Row, Col, Button} from "react-bootstrap";
 
@@ -14,7 +15,9 @@ const Home = () => {
             <p className="landing-statement">
               Feel free to contact me with any questions.
             </p>
-            <Button href="/contact" variant="outline-primary">Contact Me</Button>{''}
+            <Button variant="outline-primary">
+            <Link className="nav-link" to="/contact">Contact Me</Link>
+            </Button>
           </div>
         </Col>
         <Col>

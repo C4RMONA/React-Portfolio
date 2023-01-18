@@ -2,6 +2,6 @@ section {
 margin: 5% 10%;
 }
 
-section p {
-  padding: 0 5%;
+section h2, p {
+  padding: 10px 25px 25px 25px;
 }

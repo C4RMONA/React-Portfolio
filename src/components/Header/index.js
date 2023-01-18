@@ -12,7 +12,7 @@ function Header() {
         <h1 className="col-12">Christian Carmona</h1>
       </Link>
       <nav>
-        <ul className="nav-link row ">
+        <ul className="nav-link row">
           <Link className="col-3" to="/aboutme">
             About Me
           </Link>
