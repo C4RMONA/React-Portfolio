@@ -52,8 +52,8 @@ function ContactForm() {
       <section className="contact">
 
         <div className="contact-info">
-          <h1>Let's get in touch</h1>
-          <p className="text">Please feel free to contact me. I am more than willing to answer any questions!</p>
+          <h1>Let's get in touch!</h1>
+          <p className="text">Please feel free to contact me. I am looking foward to answering any questions!</p>
         </div>
 
         <form
