@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Button } from "react-bootstrap";
 function Modal({ onClose, currentGif }) {
 
   return (
@@ -10,9 +10,9 @@ function Modal({ onClose, currentGif }) {
         <p>Built With: {currentGif.built}</p>
         <img className="gif-img" src={require(`../../assets/gifs/${currentGif.category}/${currentGif.category}.gif`)} />
         <p></p>
-        <button className="modal-btn" onClick={onClose} type="button">
+        <Button className="modal-btn" variant="primary" onClick={onClose}>
           Close this modal
-        </button>
+        </Button>
       </div>
     </div>
   );

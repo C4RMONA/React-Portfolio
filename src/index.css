@@ -2,6 +2,7 @@
   --primary-color: #65a890;
   --secondary-color: #ee6252;
   --light: #fafafa;
+  --mid: #305ea7;
   --dark: #08101d;
 }
 
@@ -70,29 +71,8 @@ footer i {
   margin: 5%;
 }
 
-.contact-container {
-  width: 59%;
-  margin: auto;
-  margin-top: 150px;
-}
-
-.contact {
-  border: 2px solid var(--primary-color);
-  /* width: 40%; */
-  text-align: start;
-}
-
-.contactForm {
-  text-align: start;
-}
-
-.input {
-  border: 3px solid black;
-}
-
 .resume {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.5);
 }
 
 .resume:hover {
@@ -102,7 +82,10 @@ footer i {
 .resume-div {
   margin: 0 10%;
   text-align: start;
+}
 
+.resume-div a {
+  color: #FFFDD0;
 }
 
 .dark .footerLink {
@@ -130,4 +113,32 @@ footer i {
 
 .landing-div h1 {
   margin-bottom: 5%;
+}
+
+.nav-link-btn {
+  text-decoration: none;
+  color: var(--light);
+  background-color: var(--primary-color) !important;
+  border-color: var(--dark) !important;
+}
+
+.nav-link-btn:hover {
+  color: var(--dark);
+}
+
+.modal-btn {
+  background-color: var(--primary-color) !important;
+  border-color: var(--dark) !important;
+}
+
+.modal-btn:hover {
+  color: var(--dark) !important;
+}
+
+.light .resume-div a {
+  color: var(--primary-color);
+}
+
+.light .resume-div a:hover {
+  color: rgb(219, 159, 79);
 }

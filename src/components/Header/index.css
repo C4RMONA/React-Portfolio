@@ -1,8 +1,16 @@
-header  {
+header {
   display: flex;
   justify-content: space-between;
   margin: 30px;
   padding: 0;
+}
+
+.header-div {
+  background-color: var(--primary-color);
+}
+
+.dark .header-div {
+  background-color: var(--dark);
 }
 
 .dark header a {
@@ -13,8 +21,22 @@ header  {
   color: var(--dark);
 }
 
-.nav-link a {
+header nav {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+header a {
   text-decoration: none;
+}
+
+header a:hover {
+  color: var(--light);
+}
+
+.dark header a:hover {
+  color: var(--primary-color);
 }
 
 .mode-btn {
@@ -23,6 +45,85 @@ header  {
   width: 0 !important;
 }
 
+.mode-btn:hover {
+  color: var(--light);
+}
+
 .dark .mode-btn {
   color: var(--light);
+}
+
+.dark .mode-btn:hover {
+  color: var(--primary-color);
+}
+
+.nav-btn {
+  display: none;
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-weight: 1000;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 992px) {
+  header nav {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .nav-btn {
+    display: block;
+  }
+
+  header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: aliceblue;
+    transition: 0.7s;
+    transform: translateY(-100vh);
+    z-index: 9999;
+  }
+
+  header nav a:hover {
+    color: var(--primary-color);
+  }
+
+  header nav button:hover {
+    color: var(--primary-color) !important;
+  }
+
+  .dark header nav {
+    background-color: var(--dark);
+  }
+
+   header .responsive-nav {
+    transform: none;
+  }
+
+  nav .nav-close-btn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+
+  }
+
+  .dark .nav-btn {
+    color: var(--light);
+  }
 }

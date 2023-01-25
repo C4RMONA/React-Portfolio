@@ -15,8 +15,8 @@ const Home = () => {
             <p className="landing-statement">
               Feel free to contact me with any questions.
             </p>
-            <Button variant="outline-primary">
-            <Link className="nav-link" to="/contact">Contact Me</Link>
+            <Button className="nav-link-btn" variant="primary">
+            <Link className="nav-link-btn" to="/contact">Contact Me</Link>
             </Button>
           </div>
         </Col>

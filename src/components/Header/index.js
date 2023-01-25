@@ -1,35 +1,46 @@
-import React, { useContext } from "react";
+import React, { useContext, useRef } from "react";
 import { Link } from "react-router-dom";
 import "./index.css";
 import ThemeContext from "../../context/ThemeContext";
 
 function Header() {
   const { toggleTheme } = useContext(ThemeContext);
+  const navRef = useRef();
+
+  const showNavbar = () => {
+    navRef.current.classList.toggle("responsive-nav");
+  };
 
   return (
-    <header className="nav-head container align-items-center pt-2">
-      <Link to="/React-Portfolio">
-        <h1 className="col-12">Christian Carmona</h1>
-      </Link>
-      <nav>
-        <ul className="nav-link row">
-          <Link className="col-3" to="/aboutme">
+    <div className="header-div">
+      <header className="container align-items-center pt-2">
+        <Link to="/React-Portfolio">
+          <h1 className="col-12 header-name">Christian Carmona</h1>
+        </Link>
+        <nav ref={navRef}>
+          <Link onClick={showNavbar} className="col-3" to="/aboutme">
             About Me
           </Link>
-          <Link className="col-3" to="/portfolio">
+          <Link onClick={showNavbar} className="col-3" to="/portfolio">
             PortFolio
           </Link>
-          <Link className="col-3" to="/contact">
+          <Link onClick={showNavbar} className="col-3" to="/contact">
             Contact
           </Link>
-          <Link className="col-3" to="/resume">
+          <Link onClick={showNavbar} className="col-3" to="/resume">
             Resume
           </Link>
-          <button class="bi bi-lightbulb mode-btn" onClick={toggleTheme}>
+          <button
+            className="bi bi-lightbulb mode-btn"
+            onClick={toggleTheme}
+          ></button>
+          <button className="nav-btn nav-close-btn" onClick={showNavbar}>
+            X
           </button>
-        </ul>
-      </nav>
-    </header>
+        </nav>
+        <button className="bi bi-list nav-btn" onClick={showNavbar}></button>
+      </header>
+    </div>
   );
 }
 

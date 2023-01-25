@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import { validateEmail } from "../../utils/helpers";
+import "./index.css"
 import emailjs from "@emailjs/browser";
 
 function ContactForm() {
@@ -49,14 +50,20 @@ function ContactForm() {
   return (
     <div className="contact-container">
       <section className="contact">
-        <h1>Contact me</h1>
+
+        <div className="contact-info">
+          <h1>Let's get in touch</h1>
+          <p className="text">Please feel free to contact me. I am more than willing to answer any questions!</p>
+        </div>
+
         <form
           id="contact-form"
           ref={refForm}
           className="contactForm"
           onSubmit={handleSubmit}
-        >
-          <div>
+          >
+          <h1 className="title">Contact Me</h1>
+          <div className="input-container">
             <label htmlFor="name">Name:</label>
             <br />
             <input
@@ -67,7 +74,7 @@ function ContactForm() {
               name="name"
             />
           </div>
-          <div>
+          <div className="input-container">
             <label htmlFor="email">Email address:</label> <br />
             <input
               className="col-12 input"
@@ -77,7 +84,7 @@ function ContactForm() {
               name="email"
             />
           </div>
-          <div>
+          <div className="input-container">
             <label htmlFor="message">Message:</label>
             <br />
             <textarea
@@ -93,7 +100,7 @@ function ContactForm() {
               <p className="error-text">{errorMessage}</p>
             </div>
           )}
-          <button type="submit">Submit</button>
+          <button type="submit" className="sub-btn">Submit</button>
         </form>
       </section>
     </div>
