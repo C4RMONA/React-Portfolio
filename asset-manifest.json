@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.a6cf48ee.css",
-    "main.js": "/React-Portfolio/static/js/main.318ac065.js",
+    "main.css": "/React-Portfolio/static/css/main.37cec550.css",
+    "main.js": "/React-Portfolio/static/js/main.f3c8e785.js",
     "static/media/Run-Buddy.gif": "/React-Portfolio/static/media/Run-Buddy.c1d315df1ff40b6bf06a.gif",
     "static/media/Pet-Portal.gif": "/React-Portfolio/static/media/Pet-Portal.12165231d1952c8bbcbf.gif",
     "static/media/Pokemon-Questionaire.gif": "/React-Portfolio/static/media/Pokemon-Questionaire.08fb2607acf80e126d58.gif",
@@ -16,11 +16,11 @@
     "static/media/Run-Buddy.png": "/React-Portfolio/static/media/Run-Buddy.ebe97054bafd05bb01d3.png",
     "static/media/Just-Tech.png": "/React-Portfolio/static/media/Just-Tech.a6b04b0195c550deea5a.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.a6cf48ee.css.map": "/React-Portfolio/static/css/main.a6cf48ee.css.map",
-    "main.318ac065.js.map": "/React-Portfolio/static/js/main.318ac065.js.map"
+    "main.37cec550.css.map": "/React-Portfolio/static/css/main.37cec550.css.map",
+    "main.f3c8e785.js.map": "/React-Portfolio/static/js/main.f3c8e785.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6cf48ee.css",
-    "static/js/main.318ac065.js"
+    "static/css/main.37cec550.css",
+    "static/js/main.f3c8e785.js"
   ]
 }
